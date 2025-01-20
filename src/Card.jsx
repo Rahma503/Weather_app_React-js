@@ -36,6 +36,11 @@ export default function Card() {
 
     }
     const search = async(city)=>{
+        if(city ==="")
+        {
+            alert("please enter city name")
+            return
+        }
 
         try{
 
